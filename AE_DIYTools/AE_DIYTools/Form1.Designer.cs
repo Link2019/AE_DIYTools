@@ -63,8 +63,8 @@
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ZoomIntoolStripButton1,
             this.ZoomOuttoolStripButton2,
-            this.ZoomFulltoolStripButton3,
             this.toolStripButton4,
+            this.ZoomFulltoolStripButton3,
             this.SelecttoolStripButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 25);
             this.toolStrip1.Name = "toolStrip1";
@@ -127,7 +127,7 @@
             this.splitContainer1.Panel2.Controls.Add(this.axLicenseControl1);
             this.splitContainer1.Panel2.Controls.Add(this.axMapControl1);
             this.splitContainer1.Size = new System.Drawing.Size(800, 347);
-            this.splitContainer1.SplitterDistance = 227;
+            this.splitContainer1.SplitterDistance = 205;
             this.splitContainer1.TabIndex = 3;
             // 
             // axTOCControl1
@@ -136,7 +136,7 @@
             this.axTOCControl1.Location = new System.Drawing.Point(0, 0);
             this.axTOCControl1.Name = "axTOCControl1";
             this.axTOCControl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axTOCControl1.OcxState")));
-            this.axTOCControl1.Size = new System.Drawing.Size(227, 347);
+            this.axTOCControl1.Size = new System.Drawing.Size(205, 347);
             this.axTOCControl1.TabIndex = 0;
             // 
             // axMapControl1
@@ -145,7 +145,7 @@
             this.axMapControl1.Location = new System.Drawing.Point(0, 0);
             this.axMapControl1.Name = "axMapControl1";
             this.axMapControl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axMapControl1.OcxState")));
-            this.axMapControl1.Size = new System.Drawing.Size(569, 347);
+            this.axMapControl1.Size = new System.Drawing.Size(591, 347);
             this.axMapControl1.TabIndex = 0;
             // 
             // ZoomIntoolStripButton1
@@ -155,7 +155,7 @@
             this.ZoomIntoolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ZoomIntoolStripButton1.Name = "ZoomIntoolStripButton1";
             this.ZoomIntoolStripButton1.Size = new System.Drawing.Size(52, 53);
-            this.ZoomIntoolStripButton1.Text = "toolStripButton1";
+            this.ZoomIntoolStripButton1.Text = "放大";
             // 
             // ZoomOuttoolStripButton2
             // 
@@ -164,7 +164,7 @@
             this.ZoomOuttoolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ZoomOuttoolStripButton2.Name = "ZoomOuttoolStripButton2";
             this.ZoomOuttoolStripButton2.Size = new System.Drawing.Size(52, 53);
-            this.ZoomOuttoolStripButton2.Text = "toolStripButton2";
+            this.ZoomOuttoolStripButton2.Text = "缩小";
             // 
             // ZoomFulltoolStripButton3
             // 
@@ -173,7 +173,8 @@
             this.ZoomFulltoolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ZoomFulltoolStripButton3.Name = "ZoomFulltoolStripButton3";
             this.ZoomFulltoolStripButton3.Size = new System.Drawing.Size(52, 53);
-            this.ZoomFulltoolStripButton3.Text = "toolStripButton3";
+            this.ZoomFulltoolStripButton3.Text = "漫游";
+            this.ZoomFulltoolStripButton3.ToolTipText = "全图";
             // 
             // toolStripButton4
             // 
@@ -183,6 +184,7 @@
             this.toolStripButton4.Name = "toolStripButton4";
             this.toolStripButton4.Size = new System.Drawing.Size(52, 53);
             this.toolStripButton4.Text = "toolStripButton4";
+            this.toolStripButton4.ToolTipText = "漫游";
             // 
             // SelecttoolStripButton1
             // 
@@ -192,6 +194,7 @@
             this.SelecttoolStripButton1.Name = "SelecttoolStripButton1";
             this.SelecttoolStripButton1.Size = new System.Drawing.Size(52, 53);
             this.SelecttoolStripButton1.Text = "toolStripButton1";
+            this.SelecttoolStripButton1.ToolTipText = "指针";
             // 
             // axLicenseControl1
             // 
@@ -213,7 +216,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "制作自定义GIS工具";
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
